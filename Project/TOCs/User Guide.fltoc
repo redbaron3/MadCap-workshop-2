@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultToc
   Version="1"
   conditions="">
@@ -12,7 +12,8 @@
     PageNumberFormat="lower-roman"
     PageLayout="/Content/Resources/PageLayouts/FrontMatter.flpgl"
     Link="/Content/Print Only Topics/TitlePage.htm"
-    BreakType="pageLayout"></TocEntry>
+    BreakType="pageLayout"
+    conditions="General.PDF"></TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/A_Introduction Topics/Welcome.htm"
@@ -28,7 +29,8 @@
     SectionNumberReset="continue"
     StartPageLayout="false"
     StartSection="false"
-    AutoEndOnLeftPage="enabled">
+    AutoEndOnLeftPage="enabled"
+    conditions="General.Online">
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/A_Introduction Topics/WhatsNew.htm" />

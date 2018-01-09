@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
   Comment="HTML5 Output"
@@ -6,7 +6,7 @@
   Destinations=""
   GlossaryTermConversion="marked"
   DefaultUrl="/Content/A_Introduction Topics/Welcome.htm"
-  MasterToc="/Project/TOCs/OnlineOutput.fltoc"
+  MasterToc="/Project/TOCs/User Guide.fltoc"
   ConditionTagExpression="include[General.Online] exclude[General.PDF] "
   InsertMOTW="true"
   EnableSitemap="false"
